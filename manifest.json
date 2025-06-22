@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "SAQ Modificateur HTML",
+  "version": "1.0",
+  "description": "Modifie le HTML de saq.com",
+  "permissions": [],
+  "host_permissions": [
+    "https://saq.com/*",
+    "https://www.saq.com/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": [
+        "https://saq.com/*",
+        "https://www.saq.com/*"
+      ],
+      "js": ["content.js"],
+      "run_at": "document_idle"
+    }
+  ],
+  "action": {
+    "default_title": "Modifie SAQ"
+  }
+}
