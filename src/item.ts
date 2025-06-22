@@ -5,8 +5,6 @@ export class Item {
     private alcoholRate: number;
 
     private static readonly TAX_RATE = 0.14975;
-    private static readonly BEER_TAX = 0.63;
-    private static readonly NON_BEER_TAX = 1.40;
 
     constructor(volume: number, price: number, alcoholRate: number) {
         this.volume = volume;
