@@ -9,3 +9,4 @@
 - Release a package
 - Add unit tests
 - Create a cicd pipeline
+- add linter
