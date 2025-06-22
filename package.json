@@ -4,6 +4,7 @@
   "description": "An extension that computes prices/l and prices/l of alcool",
   "scripts": {
     "build": "vite build && cp manifest.json dist/",
+    "pretty": "prettier --write 'src/**/*.{ts,js,css,html,json}'",
     "package": "rm -f saq-metrics-extension.zip && npm run build && cd dist && zip -r ../saq-metrics-extension.zip ."
   },
   "author": "Mehdi Benouhoud",
@@ -11,6 +12,7 @@
   "devDependencies": {
     "@types/chrome": "^0.0.326",
     "@types/firefox-webext-browser": "^120.0.4",
+    "prettier": "3.5.3",
     "typescript": "^5.8.3",
     "vite": "^6.3.5"
   },
