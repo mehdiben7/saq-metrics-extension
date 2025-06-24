@@ -1,7 +1,7 @@
 
 # Extension des métriques de la SAQ
 
-Une simple extension de navigateur qui ajoute des métriques supplémentaires à la page d'un produit sur le site de la SAQ.
+Une simple extension de navigateur qui ajoute des métriques très pertinentes à la page d'un produit sur le site de la SAQ.
 
 ## Installation
 

@@ -2,7 +2,7 @@
 
 Si vous cherchez la version française de ce README, [cliquez ici](README_FR.md)
 
-A simple browser extension that adds some really important metrics to the product page of a product.
+A simple browser extension that adds some really important metrics to the product page of a product on the SAQ website.
 
 ## Installation
 
