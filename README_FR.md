@@ -5,7 +5,15 @@ Une simple extension de navigateur qui ajoute des métriques supplémentaires à
 
 ## Installation
 
-À votre droite, vous verrez l'onglet des *releases*. Cliquez sur la version que vous souhaitez installer
+À votre droite, vous verrez l'onglet des *releases*. Cliquez sur la version que vous souhaitez installer et téléchargez le fichier .zip. Ensuite, extrayez-le et suivez les étapes en fonction de votre navigateur.
+
+### Chrome
+Entrez `chrome://extensions/` dans votre barre de navigation, puis activez le mode développeur et cliquez sur le bouton `Load unpacked` et sélectionnez le dossier extrait.
+![Capture d'écran Chrome](assets/chrome_screenshot.png)
+
+### Firefox
+Entrez `about:debugging#/runtime/this-firefox` dans votre barre de navigation, puis cliquez sur le bouton `Load Temporary Add-on` et sélectionnez le dossier extrait.
+![Capture d'écran de Firefox](assets/firefox_screenshot.png)
 
 ## Construction
 
