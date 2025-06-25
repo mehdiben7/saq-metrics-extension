@@ -2,11 +2,19 @@
 
 Si vous cherchez la version française de ce README, [cliquez ici](README_FR.md)
 
-A simple browser extension that adds some additional metrics to the product page of a product on the SAQ website.
+A simple browser extension that adds some really important metrics to the product page of a product on the SAQ website.
 
 ## Installation
 
-To your right, you will see the release tab. Click on the version you wish to install
+To your right, you will see the release tab. Click on the version you wish to install and download the .zip. Then extract it and follow the step depending on your browser.
+
+### Chrome
+Enter `chrome://extensions/` in your navbar, then activate the developer mode and click on the `Load unpacked` button and select the extracted folder.
+![Chrome screenshot](assets/chrome_screenshot.png)
+
+### Firefox
+Enter `about:debugging#/runtime/this-firefox` in your navbar, then click on the `Load Temporary Add-on` button and select the extracted folder.
+![Firefox screenshot](assets/firefox_screenshot.png)
 
 ## Build
 
@@ -18,7 +26,7 @@ To your right, you will see the release tab. Click on the version you wish to in
 
 ## Disclaimers
 
-### Non-affiliation 
+### Non-affiliation
 
 Neither I nor any potential contributor is associated with the Société des alcools du Québec (SAQ) or any of its subsidiaries. The same goes for the Quebec government, which has no connection with us. The SAQ neither condemns nor supports this extension, which is purely a figment of my imagination.
 
